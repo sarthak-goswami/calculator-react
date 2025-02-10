@@ -16,7 +16,7 @@ function App() {
         <button onClick={()=>setnum((prevnum)=>prevnum+'-')} className='bg-blue-400  text-xl rounded-2xl w-14 h-14 shadow-xl hover:bg-blue-300 hover:translate-y-0.5'>-</button> 
         <button onClick={()=>setnum((prevnum)=>prevnum+'1')} className='bg-amber-400 text-xl rounded-2xl w-14 h-14 shadow-xl  hover:bg-yellow-300 hover:outline-white hover:outline-2 hover:translate-y-0.5'>1</button>
         <button onClick={()=>setnum((prevnum)=>prevnum+'2')} className='bg-amber-400 text-xl rounded-2xl w-14 h-14 shadow-xl  hover:bg-yellow-300 hover:outline-white hover:outline-2 hover:translate-y-0.5'>2</button>
-        <button onClick={()=>setnum((prevnum)=>prevnum+'3')} className='bg-amber-400 text-xl rounded-2xl w-14 h-14 shadow-xl  hover:bg-yellow-300 hover:outline-white hover:outline-2 hover:translate-y-0.5'>4</button>
+        <button onClick={()=>setnum((prevnum)=>prevnum+'3')} className='bg-amber-400 text-xl rounded-2xl w-14 h-14 shadow-xl  hover:bg-yellow-300 hover:outline-white hover:outline-2 hover:translate-y-0.5'>3</button>
         <button onClick={()=>setnum((prevnum)=>prevnum+'*')} className='bg-blue-400  text-xl rounded-2xl w-14 h-14 shadow-xl hover:bg-blue-300 hover:translate-y-0.5'>*</button> 
         <button onClick={()=>setnum((prevnum)=>'')} className='bg-gray-600 text-white rounded-2xl  text-xl w-14 h-14 shadow-xl hover:bg-gray-500 hover:translate-y-0.5'>C</button>
         <button onClick={()=>setnum((prevnum)=>prevnum+'0')} className='bg-amber-400 text-xl   rounded-2xl w-14 h-14 shadow-xl  hover:bg-yellow-300 hover:outline-white hover:outline-2 hover:translate-y-0.5'>0</button>
